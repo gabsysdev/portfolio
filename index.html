@@ -9,8 +9,8 @@
 				content-visibility: auto;
       			}
 		}
-  </style>
-  <script src="https://cdn.tailwindcss.com"></script>
+	</style>
+	<script src="https://cdn.tailwindcss.com"></script>
    	
 
         <!--=============== FAVICON ===============-->
@@ -18,74 +18,79 @@
 
         <title>GabrielBejarano.CV</title>
     </head>
+
         <!--=============== BODY ===============-->
-    <body class="bg-black bg-fixed bg-contain bg-no-repeat rounded-full" style="background-image:url('https://i.giphy.com/media/42D6A6kwVwTyVLAfI9/giphy.webp'); background-position: center;">
+    <body class="bg-black bg-local bg-auto bg-top mt-10em bg-no-repeat " style="background-image:url('./gif.gif'); background-position: center top 69px;">
 
         <!--=============== THAT SORT OF BLOB===============-->
-	    </br>
+</br>
 
-<figcaption class="mt-6 flex items-center justify-center space-x-4 text-left"><img src="https://media.licdn.com/dms/image/C5603AQFddIhZm2cb5g/profile-displayphoto-shrink_800_800/0/1625790681728?e=1701907200&v=beta&t=uft1w_EmySkq02bg8kdiiaJ-VDgviVtnjq9vByK3hkU" class="w-14 h-14 rounded-full" loading="lazy" decoding="async"><div><div class="text-slate-900 font-semibold dark:text-white">Gabriel Bejarano</div><div class="text-white mt-0.5 text-sm leading-6">Infra and Development</div></div>
-    <button class="px-4 py-1 text-sm text-blue-500 font-semibold rounded-full border border-blue-200 hover:text-white hover:bg-blue-800 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-800 focus:ring-offset-2">Contact me</button>
-
-</figcaption>
-	    </div>
-  <div class="flex flex-col py-5 pl-24">
-      <div>
-  </div>
-    </div>
-
-    </div>
+	    <figcaption class="mt-6 flex items-center justify-center space-x-4 text-left">
+		    <img src="https://media.licdn.com/dms/image/C5603AQFddIhZm2cb5g/profile-displayphoto-shrink_800_800/0/1625790681728?e=1701907200&v=beta&t=uft1w_EmySkq02bg8kdiiaJ-VDgviVtnjq9vByK3hkU" class="w-14 h-14 rounded-full" loading="lazy" decoding="async">
+		    <div>
+			    <div class="text-white font-semibold dark:text-white">Gabriel Bejarano</div>
+			    <div class="text-white mt-0.5 text-sm leading-6">Infra and Development</div>
+		    </div>
+		    <button class="px-4 py-1 text-sm text-emerald-500 font-semibold rounded-full border border-blue-200 hover:text-white hover:bg-emerald-500 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-800 focus:ring-offset-2"><a href="https://www.linkedin.com/in/gabsysdev/">Contact me</a></button>
+	    </figcaption>
 
 </div>
-  </div>
+
+	    <div class="flex flex-col py-5 pl-24">
+	    <div></div>
+
+</div></div></div></div>
+
 </br>
 
         <!--=============== NAVBAR ===============-->
 	
-	    <nav class="relative flex justify-center">
-		    <a href="/about-me" class="border-s-indigo-500 transition duration-700 ease-in-out font-mono px-3 py-2 text-white rounded-lg hover:bg-blue-100 hover:text-slate-900">About me</a>
-		    <a href="/experience" class="transition duration-700 ease-in-out font-mono px-3 py-2 text-white rounded-lg hover:bg-blue-100 hover:text-slate-900">Experience</a>
-		    <a href="/stack" class="transition duration-700 ease-in-out font-mono px-3 py-2 text-white rounded-lg hover:bg-blue-100 hover:text-slate-900">Stack &&
-			    Tools</a>
-		    <a href="/certifications" class="transition duration-700 ease-in-out font-mono px-3 py-2 text-white rounded-lg hover:bg-blue-100 hover:text-slate-900">Certifications</a>
-		    <a href="/movie" class="transition duration-700 ease-in-out font-mono px-3 py-2 text-white rounded-lg hover:bg-blue-100 hover:text-slate-900">Recommend me a SciFi movie</a>
+	    <nav class="mt-6 grid flex items-center justify-center space-x-4 text-leftcontainer flex items-center justify-self-auto">
+		    <button onclick="UpdateCard(this.id); typeWriter();" id="aboutme"class="border-s-indigo-500 transition duration-700 ease-in-out font-mono px-3 py-2 text-white rounded-lg hover:bg-blue-100 hover:text-slate-900">About me</button>
+		    <button onclick="UpdateCard(this.id)" id="experience" class="transition duration-700 ease-in-out font-mono px-3 py-2 text-white rounded-lg hover:bg-blue-100 hover:text-slate-900">Experience</button>
+		    <button onclick="UpdateCard(this.id)" id="stackandtools" class="transition duration-700 ease-in-out font-mono px-3 py-2 text-white rounded-lg hover:bg-blue-100 hover:text-slate-900">Stack &&
+			    Tools</button>
+		    <button onclick="UpdateCard(this.id)" id="certifications" class="transition duration-700 ease-in-out font-mono px-3 py-2 text-white rounded-lg hover:bg-blue-100 hover:text-slate-900">Certifications</button>
+		    <button onclick="UpdateCard(this.id)" id="recommend" class="transition duration-700 ease-in-out font-mono px-3 py-2 text-white rounded-lg hover:bg-blue-100 hover:text-slate-900">Need some script?. Check my repos!</button>
+	    </nav>
 
-</nav>
 </br></br></br></br></br>
-		<div class="relative bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10">
-<!--=============== HEADER ===============-->
-	<div class="mx-auto max-w-md">
-        <header class="header font-mono text-lg" id="header">	
-		<ul class="font-mono text-xl">ABOUT ME</ul>
-		<ul class="font-mono text-center">element1</ul>
-		<ul class="font-mono">element2</ul>
-		<ul class="font-mono">element3</ul>
-		<ul class="font-mono">element3</ul>
-		<ul class="font-mono">element3</ul>
-		<ul class="font-mono">element3</ul>
-		<ul class="font-mono">element3</ul>
-		<ul class="font-mono">element3</ul>
-		<ul class="font-mono">element3</ul>
-		<ul class="font-mono">element3</ul>
-        </header>
+
+<script>
+var i = 0;
+var txt ='Hi, my name is Gabriel!\n\n A goal-oriented and self didact terminal enthusiast.\n\n Pragmatism, energy and motivation allows me to \n collaborate and engage with different teams,\n helping multiple areas (infrastructure, data, \n development)  to achieve the best result possible. \n \n Thanks for checking my site!';
+
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    let text = txt.charAt(i);
+    document.getElementById("typing").innerHTML += text=== "\n" ? "<br/>": text;
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+
+
+<!--=============== MAIN CARD ===============-->
+
+		<div id="card" style="visibility:hidden" class="main-card relative bg-zinc-900 px-2 pt-2 pb-4 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-8 transition duration-1000 text-white">
+
+</div>
 	</div>
+	</br>
+	<div></div>
 
 
-
-		</div>
- 	</div>
 	<!--=============== FOOTER ===============-->
         <footer class="footer">
 	Everything is scripted...	
         </footer>
 
-        <!--=============== SCROLLREVEAL ===============-->
-        <script src=""></script>
 
-        <!--=============== SWIPER JS ===============-->
-        <script src=""></script>
-
-        <!--=============== MAIN JS ===============-->
-        <script src=""></script>
+            <!--=============== MAIN JS ===============-->
+	<script src="main.js"></script>
+	<iframe id="cards_html" src="cards.html" style="display:none"></iframe>
     </body>
 </html>
